@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  width: 95%;
+  height: 100%;
+  justify-content: center;
+}
+body {
+    margin-left: 50px;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow: hidden;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-span {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  font-size: 70px;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 50px;
+}
+.a-nav {
+  text-decoration: none;
+  color: rgb(151, 149, 156);
+}
+
+.content-body {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-body-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 65%;
+  gap: 30px;
+}
+.content-body-div2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+  background-color: black;
+  padding: 30px;
+  width: 30%;
+}
+.body-img {
+  width: 100%;
+  height: 300px;
+}
+.intro-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.intro-span {
+  font-size: 40px;
+  font-weight: 700;
+}
+.intro-div-p-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.intro-p {
+  text-align: start;
+  font-size: 15px;
+  color: rgb(180, 180, 180);
+}
+.intro-btn {
+  width: 40%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(242, 92, 84);
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+.main-head {
+  color: rgb(233, 170, 79);
+  font-size: 30px;
+  font-weight: 600;
+}
+.side-div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.side-head {
+  color: white;
+  font-weight: bold;
+}
+.side-body {
+  color: rgb(122, 123, 144);
+}
+.hr-body {
+  color: rgb(122, 123, 144);
+}
+
+.body-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  justify-content: space-between;
+}
+.body-bottom-card {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  /* justify-content: space-between; */
+  gap: 20px;
+}
+.body-bottom-card-inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card-head {
+  color: rgb(206, 99, 97);
+  font-size: 20px;
+  font-weight: 800;
+}
+.card-name {
+  color: black;
+  font-weight:bold;
+  /* font-size: 15px; */
+}
+.card-inf {
+  color: rgb(148, 146, 150);
+}
