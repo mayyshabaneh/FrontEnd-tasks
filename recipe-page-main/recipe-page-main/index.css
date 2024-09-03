@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Young Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family= "Outfit";:wght@100..900&family=Young Serif&display=swap');
+body{
+    direction: ltr;
+    background-color:hsl(330, 100%, 98%);
+    display: flex;
+    flex-direction: column;
+}
+.recipe-page{
+    max-width: 40%;
+    height: 90%vh;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 18px;
+    border: 1px solid white;
+    padding: 50px;
+}
+.img-head{
+    max-width: 100%;
+    margin-left: 5px;
+    border-radius: 28px;
+}
+.prep-time{
+    background-color: hsl(330, 100%, 98%);
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+.inst{
+    border-top: 1px solid rgb(197, 196, 196);
+    border-bottom:1px solid rgb(197, 196, 196) ;
+}
+.headings{
+    color: hsl(332, 51%, 32%);
+    font-family: Young Serif;
+}
+p{
+    font-size: 16px;
+    font-family: "Outfit";
+    font-weight: 400;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit";
+    font-weight: 600;
+}
+.bold-head{
+    font-weight: 700;
+    font-family:  "Outfit";
+}
+td{
+    border-bottom: 1px solid black;
+    border-right: none;
+}
+.inf{
+    padding-left: 200px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit";
+    font-weight: 600;
+}
+li{
+    padding-top: 20px;
+    font-family:  "Outfit"
+}
+
+.p-head{
+    font-family:  "Outfit";
+}
+.h1-head{
+    font-family: Young Serif;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 375px) {
+
+    .recipe-page {
+      width: 100%;
+
+    }
+  
+    .img-head {
+      width: 100%;
+      border-radius: 0;
+    }
+    .inf{
+        padding-left: 0px;
+    }
+    td{padding: 0px;}
+}
