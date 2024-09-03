@@ -1,0 +1,220 @@
+*{
+    direction: ltr;
+    font-family: 'Hanken Grotesk' , sans-serif;
+
+    /* width: 1440px; */
+}
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url(assets\fonts\HankenGrotesk-VariableFont_wght.ttf) format(truetype);
+    font-weight: 500;
+    font-weight: 700;
+    font-weight: 800;
+    font-style: normal;
+}
+body{background-color: rgb(230, 226, 226);
+position: relative;}
+.card{
+    background-color: white;
+    border: 0px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    height: 450px;
+    box-shadow: 1px 1px rgb(215, 213, 213);
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%, 30%);
+}
+.card-result{
+    width: 50%;
+    background-color:hsl(252, 90%, 55%) ;
+    border: 0px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+.result-score{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.result-head{
+    font-weight: 500;
+    color: hsl(221, 100%, 96%,0.6);
+    font-size: 25px;
+}
+.result-evaluation{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.summary-head{
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 500;
+}
+.card-summary{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 5px;
+    padding: 5px;
+}
+.summary-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.summary-reaction{
+    width: 90%;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+.summary-memory{
+    width: 90%;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+.summary-verbal{
+    width: 90%;
+    background-color: hsla(166, 75%, 49%, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.summary-visual{
+    width: 90%;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 5px;
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+.span-reaction{
+    color: hsl(0, 100%, 67%);
+    font-weight: 700;
+    align-self: center;
+}
+.span-memory{
+    color: hsl(39, 100%, 56%);    
+    font-weight: 700;
+}
+.span-verbal{
+    color: hsl(166, 100%, 37%);
+    font-weight: 700;
+}
+.span-visual{
+    color: hsl(234, 85%, 45%);
+    font-weight: 700;
+}
+.span-card{
+    font-size: medium;
+    color: rgb(188, 184, 184);
+    padding: 5px;
+}
+.reaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.memory{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.verbal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.visual{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.summary-btn{
+    height: 50px;
+    width: 70%;
+    border: 0px;
+    border-radius: 30px;
+    background-color: hsl(241, 81%, 54%);
+    color: white;
+    align-self: center;
+    
+    justify-self: center;
+    font-size: 20px;
+    margin: 5px;
+}
+.summary-btn:hover{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+.summary-btn:focus{
+    background-color:hsl(224, 30%, 27%)
+}
+.p-score{
+    font-weight: 700;
+    font-size: 40px;
+}
+.p-summary{
+    font-weight: 700;
+    font-size: 20px;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:hsl(221, 100%, 96%,0.6); ;
+}
+.span-ofresult{
+    color:hsl(221, 100%, 96%,0.6); ;
+}
+
+@media screen and (max-width: 375px) {
+    .card{
+
+        flex-direction: column;
+        box-shadow: 0px;
+    }
+
+}
