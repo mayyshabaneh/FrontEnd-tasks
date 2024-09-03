@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+body {
+    font-family: "Roboto", sans-serif;
+    /* overflow: hidden; */
+    /* Primary Color (Blue):
+    RGB: (0, 123, 255)
+    Secondary Color (Grey):
+    RGB: (108, 117, 125)
+    Accent Color (White):
+    RGB: (255, 255, 255) */
+    /* Home Icon: Typically represented by a house symbol.
+    Contacts Icon: Usually depicted with a person or group of people.
+    Team Icon: Often shown with multiple people or a team symbol.
+    Projects Icon: Commonly represented by a folder or document.
+    Settings Icon: Usually depicted with a gear or cogwheel. */
+}
+header{
+    width: 1440px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center;     */
+    margin-bottom: 10px;
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    /* width: 50%; */
+}
+.header-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 10%;
+    justify-content: space-evenly;
+}
+.header-right-btn-profile-img{
+    width: 10px;
+    /* height: 5px; */
+}
+.header-left-img{
+    width: 40px;
+    height: 40px;
+}
+.header-right-btn-bill{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:rgb(228, 228, 228);
+    border: none;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+} 
+.div-span{
+    font-size: 20px;
+}
+.header-right-btn-span{
+    background-color: orange;
+    border: 0px solid orange;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    top: -8px;
+    right: 70px;
+}
+.header-right-input-div{    
+    margin-right:10px;
+    background-color: rgb(228, 228, 228);
+    padding: 5px;
+    border-radius: 20px;
+}
+.header-right-input{
+    width: 300px;
+    border: 0px;
+    background-color: rgb(228, 228, 228);
+
+}
+.header-right-div-mood{
+background-color: rgb(228, 228, 228);
+border-radius: 20px;
+margin-left: 20px;
+margin-right: 40px;
+}
+.header-right-div-mood-sun{
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(0, 123, 255);
+}
+.header-right-div-mood-moon{
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(228,228,228);
+}
+.header-right-btn-profile{
+    border: 0px;
+    background-color: white;
+    align-items: center;
+}
+.header-right-btn-profile-profilepic{
+height: 40px;
+width: 40px;
+background-color: blue;
+border-radius: 50%;
+}
+.header-right-btn-profile-span{
+    background-color: rgb(46, 167, 92);
+    border: 0px solid rgb(46, 167, 92);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: relative;
+    right: 35px;
+    top: -20px;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 921px;
+    gap: 5px;
+    align-items: center;
+}
+.sidebar-profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.sidebar-profile-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+.sidebar-profile-div-inf{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.sidebar-profile-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.sidebar-profile-arrow{
+    width: 15px;
+    height: 10px;
+    border-radius: 50%;
+}
+.sidebar-menu{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: baseline;
+}
+.sidebar-organization{ 
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 5px;
+}
+.sidebar-sec-btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    border: none;
+    background-color: white;
+    height: 42px;
+    font-size: 15px;
+    color: rgb(161, 161, 161);
+    padding: 10px;
+    /* gap: 30px; */
+}
+.sidebar-sec-btn-span1{
+    color: white;
+    background-color: rgb(255, 121, 59);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 50px;
+
+}
+.sidebar-sec-btn-span2{
+    color: white;
+    background-color: rgb(255, 121, 59);
+    margin-left: 70px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-self: end;
+
+}
+.sidebar-sec-btn:hover{
+    background-color: rgb(228, 228, 228);
+}
+.sidebar-btn{
+    height: 40px;
+    width: 70%;
+    border-radius: 25px;
+    background-color: rgb(0, 123, 255);
+    border: 0px;
+    font-size: 16px;
+    color: white;
+    align-self: center;
+}
+.container{
+    width: 1440px;
+    height: 1040px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.accountset{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+    height: 920px;
+    width: 1130px;
+    padding: 5px;
+    border-top-right-radius: 0px;
+
+}
+.accountset-cont{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 1105;
+    height: 841px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 20px;
+    gap: 30px;
+}
+.accout-span{
+    font-size: 30px;
+    padding: 10px;
+    justify-self: center;
+}
+.accountset-cat{
+    width: 216px;
+    height: 841px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 1px 0px  rgb(201, 204, 206);
+}
+.accountset-btn{
+    background-color: white;
+    border: none;
+    margin: 5px;
+    font-size: 16px;
+    height: 40px;
+    color: grey;
+}
+.accountset-btn-delete{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    height: 40px;
+    margin-top: 40px;
+    color: red;
+    font-size: 16px;
+}
+.accountset-btn:hover{
+    background-color :rgb(228, 228, 228);
+}
+.accountset-btn-delete:hover{
+    background-color :rgb(228, 228, 228);
+}
+.accountset-btn:focus{
+    background-color :rgb(173, 218, 255);
+    border-radius: 25px;
+    color: blue;
+}
+.accountset-btn-delete:focus{
+    background-color :rgb(252, 111, 111);
+    border-radius: 25px;
+    color: white;
+}
+.profile-side{
+    width: 895px;
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid rgb(201, 204, 206);
+    padding: 5px;
+    border-radius: 20px;
+    align-items: center;
+}
+.profile-inf{
+    display: flex;
+    flex-direction: column;
+}
+.profile-pic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.profile-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 15px;
+}
+.profile-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgb(201, 204, 206);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.personal-inf-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.personal-inf-line1{
+    display: flex;
+    flex-direction: row;
+    gap: 230px;
+}
+.personal-inf-line2{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.address-line2{
+    display: flex;
+    flex-direction: row;
+    gap: 255px;
+}
+.personal-inf-line3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-btn{
+    background-color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 10px;
+}
+.btn-span{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.profile-span{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.card-address{
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-label{
+    color: gray;
+}
+.card-label-mail{
+    color: gray;
+    font-weight: lighter;
+}
+.card-name{
+    font-size: 20px;
+}
+.card-inf{
+    font-size: 15px;
+color: gray;}
+.card-content{color: black;
+}
